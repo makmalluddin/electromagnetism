@@ -17,7 +17,7 @@ wind_width = 1200
 wind_height = 800
 
 simWindow = pygame.display.set_mode((wind_width, wind_height))
-pygame.display.set_caption('KELOMPOK 2: SIMULASI ELEKTROMAGNETIK')
+pygame.display.set_caption('Electromagnetic Simulation')
 pygame.display.set_icon(icon)
 
 # Color variables
@@ -52,7 +52,7 @@ clock = pygame.time.Clock()
 # Text (author credits)
 def write_author_name(simWindow):
     font = pygame.font.Font('freesansbold.ttf', 16)
-    author_text = font.render('Kelompok 2: Pemkom 117', True, (255, 255, 255))
+    author_text = font.render('Muhammad Akmalluddin', True, (255, 255, 255))
     author_text_rect = author_text.get_rect()
     author_text_rect.center = (wind_width * 0.9, wind_height * 0.95)
 

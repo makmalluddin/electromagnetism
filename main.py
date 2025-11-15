@@ -1,5 +1,5 @@
-import modules.variables as v
-import modules.classes as c
+import modulate.classes as c
+import modulate.variables as v
 import pygame
 import time as t
 

@@ -1,7 +1,7 @@
 import pygame
 from math import pi, exp
 if __name__ != '__main__':
-    import modules.variables as v
+    import modulate.variables as v
 else:
     import variables as v
 
